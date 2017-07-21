@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>edgelcit</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/themes/talla.css" />
+	<link rel="stylesheet" href="../css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="../jquery.mobile-1.4.5/jquery-1.7.1.min.js"></script>
+    <script src="../jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body >
+
+	<div data-role="page-home" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Panel responsive page" data-url="panel-responsive-page1">
+    <div data-role="header">
+        <img src="../images/elogo.png">
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#contact" data-icon="gear" data-iconpos="notext">Contact</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+        <h1>UNIVERSITY EDGE LCIT A LA FRONTIERE DES CONNAISSANCES</h1>
+        <p>This is a typical page that has two buttons in the header bar that open panels. The left panel has the push display mode, the right panel reveal. To make this responsive, you can make the page re-flow at wider widths. This allows both the panel menu and page to be used together when more space is available. This behavior is controlled by CSS media queries. You can create a custom one for a specific breakpoint or use the breakpoint preset by adding the <code>class="ui-responsive-panel"</code> to the page container. We have added this class on this demo page. Note that when using the preset class, we also hide the dismiss layer on wider screens if the panel has the push display mode.</p>
+        <div data-demo-html="#panel-responsive-page1"></div><!--/demo-html -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       <!--  <a href="../" data-rel="back" data-ajax="false" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>-->
+    </div><!-- /content -->
+    <div data-role="panel" data-display="push" data-theme="b" id="nav-panel">
+        <ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">Close menu</a></li>
+            <li data-filtertext="demos homepage" data-icon="home" class="ui-first-child"><a href="./" class="ui-btn ui-btn-icon-right 							ui-icon-home">Acceuil</a>
+			</li>
+            <li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" 					data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed ui-li-static ui-body-inherit">
+				<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+					<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+					Formations<span class="ui-collapsible-heading-status"></span>
+					</a>
+				</h3>
+				<div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+					<ul class="ui-listview">
+						<li data-filtertext="forms text checkbox radio range button submit reset inputs selects textarea slider flipswitch label form elements" class="ui-first-child"><a href="#" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Licence</a></li>
+						<li data-filtertext="form hide labels hidden accessible ui-hidden-accessible forms"><a href="#" data-ajax="false" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Master</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="#">Aides</a></li>
+			<li><a href="#contact">Nous Contacter</a></li>    
+        </ul>
+    </div><!-- /panel -->
+    <div data-role="panel" data-position="right" data-display="reveal" data-theme="a" id="contact">
+        <fieldset>
+				<div data-role="header" data position="fixed">
+					<h1>Contacter le Concepteur</h1>
+				</div>
+    			<form method="get" name="contact" >
+		  			<table border="0" align="center" cellpadding="2" cellspacing="1" class="Table">
+					    <tr>
+							<td><a class="ui-btn" href="#">mortalla Gueye </br> Marcelino</a></td>
+					    </tr>
+					    <tr>
+					    	<td>Envoyer un mail: </td>
+					    </tr>
+					    <tr>					    	
+							<td><a class="ui-btn" href="mailto:mortallageek@gmail.com">info@edgelcit.com</a></td>
+					    </tr>
+
+					    <tr>
+					    	<td>Appeler au: </td>
+					    </tr>
+
+					    <tr>
+					    	<td><a class="ui-btn" href="tel:+221777350444">+221 33 860 90 09</a></td>
+					    </tr>
+					</table>
+				</form>
+			</fieldset>
+    </div><!-- /panel -->
+</div>
+
+
+</body>
+</html>
